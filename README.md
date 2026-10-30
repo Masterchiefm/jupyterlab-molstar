@@ -9,10 +9,14 @@ English | [简体中文](README.zh-CN.md)
 Open molecular structure files directly from the JupyterLab file browser and explore them in a full
 [Mol*](https://molstar.org/) (Molstar) viewer tab — no kernel, no notebook code required.
 
-Double-click a `.pdb` or `.cif` file in the file browser and it opens in a Mol* tab, just like a
-CSV opening with the built-in viewer.
+Double-click `1crn.pdb` in the file browser and it opens in a Mol* tab, just like a CSV opening
+with the built-in viewer:
 
-![screenshot](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot.png)
+![PDB file opened in the Mol* viewer inside JupyterLab](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot.png)
+
+mmCIF works the same way, and every file stays open in its own tab:
+
+![mmCIF file opened in the Mol* viewer inside JupyterLab](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot-cif.png)
 
 ## Why this extension?
 

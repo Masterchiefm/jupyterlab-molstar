@@ -9,9 +9,13 @@
 在 JupyterLab 文件浏览器中直接双击打开蛋白质/分子结构文件，用 [Mol*](https://molstar.org/)
 （Molstar）查看器标签页进行浏览——无需内核，无需写任何代码。
 
-双击 `.pdb` 或 `.cif` 文件即可在 Mol* 标签页中打开，体验和双击打开 CSV 一样自然。
+在文件浏览器中双击 `1crn.pdb`，即可在 Mol* 标签页中打开，体验和双击打开 CSV 一样自然：
 
-![截图](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot.png)
+![在 JupyterLab 中用 Mol* 查看 PDB 文件](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot.png)
+
+mmCIF 同样如此，每个文件都保留在独立的标签页中：
+
+![在 JupyterLab 中用 Mol* 查看 mmCIF 文件](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot-cif.png)
 
 ## 为什么做这个插件？
 
