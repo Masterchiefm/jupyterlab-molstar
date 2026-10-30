@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyterlab-molstar"
+version = "0.1.0"
+description = "View PDB, mmCIF, MMTF and other molecular structure files in JupyterLab with the Mol* viewer"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+keywords = ["jupyter", "jupyterlab", "molstar", "pdb", "cif", "protein structure"]
+classifiers = [
+  "Framework :: Jupyter",
+  "Framework :: Jupyter :: JupyterLab",
+  "Framework :: Jupyter :: JupyterLab :: 4",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["jupyterlab_molstar"]
+artifacts = ["labextension"]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"labextension" = "share/jupyter/labextensions/jupyterlab-molstar"
+
+[tool.hatch.build.targets.sdist]
+include = ["jupyterlab_molstar", "labextension", "src", "package.json", "tsconfig.json", "README.md"]
