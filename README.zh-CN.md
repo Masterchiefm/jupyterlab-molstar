@@ -13,10 +13,6 @@
 
 ![在 JupyterLab 中用 Mol* 查看 PDB 文件](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot.png)
 
-mmCIF 同样如此，每个文件都保留在独立的标签页中：
-
-![在 JupyterLab 中用 Mol* 查看 mmCIF 文件](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot-cif.png)
-
 ## 为什么做这个插件？
 
 Jupyter 现有的 Mol*/3Dmol 方案（`ipymolstar`、`nglview`、`molview`、`py3Dmol`）都是 **notebook

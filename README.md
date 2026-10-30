@@ -14,10 +14,6 @@ with the built-in viewer:
 
 ![PDB file opened in the Mol* viewer inside JupyterLab](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot.png)
 
-mmCIF works the same way, and every file stays open in its own tab:
-
-![mmCIF file opened in the Mol* viewer inside JupyterLab](https://raw.githubusercontent.com/Masterchiefm/jupyterlab-molstar/main/docs/screenshot-cif.png)
-
 ## Why this extension?
 
 Most Mol*/3Dmol options for Jupyter (`ipymolstar`, `nglview`, `molview`, `py3Dmol`) are **notebook
